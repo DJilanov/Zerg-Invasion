@@ -45,15 +45,22 @@ var assets = {
 	},
 	// game board
 	player: {
-		x	 	 : 634,
-		y	 	 : 349,
+		x	 	 : 0,
+		y	 	 : 0,
 		name 	 : 'player',
 		image 	 : {},
 		htmlImage: {}
 	},
+	rocket: {
+		x	 	 : 634,
+		y	 	 : 349,
+		name 	 : 'rocket',
+		image 	 : {},
+		htmlImage: {}
+	},
 	playerScore: {
-		x	 : 550,
-		y	 : 80,
+		x	 : 600,
+		y	 : 20,
 		name : 'playerScore'
 	}
 };

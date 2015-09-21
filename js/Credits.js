@@ -13,7 +13,7 @@ var Credits = function() {
 			name: creditsLayout.name
 		});
 		this.owner = owner;
-	}
+	};
 
 	// Show credits
 	this.showCredits = function() {
