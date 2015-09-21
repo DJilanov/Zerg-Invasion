@@ -58,6 +58,13 @@ var assets = {
 		image 	 : {},
 		htmlImage: {}
 	},
+	explosion: {
+		x	 	 : 634,
+		y	 	 : 349,
+		name 	 : 'explosion',
+		image 	 : {},
+		htmlImage: {}
+	},
 	playerScore: {
 		x	 : 600,
 		y	 : 20,
