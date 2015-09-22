@@ -1,0 +1,32 @@
+{
+
+"images": [
+    "monsters.png"
+],
+
+"frames": [
+    [2, 2, 46, 46, 0, 0, 0],
+    [50, 2, 46, 46, 0, 0, 0],
+    [98, 2, 46, 46, 0, 0, 0],
+    [146, 2, 46, 46, 0, 0, 0],
+    [194, 2, 46, 46, 0, 0, 0],
+    [242, 2, 46, 46, 0, 0, 0],
+    [290, 2, 46, 46, 0, 0, 0]
+],
+
+"animations": {
+    "bobi": [0],
+    "dichev": [1],
+    "hrischo": [2],
+    "nev": [3],
+    "plamen": [4],
+    "sania": [5],
+    "valeri": [6]
+},
+
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:61b1a559f85d5d67c1661762dcc76b12:c7fe148e87147a3f6a006f2e67208e13:8fc4d3ec51ba7bc700054b5f64cf62b1$",
+        "Created with TexturePacker (https://www.codeandweb.com/texturepacker) for EaselJS"
+]
+
+}

@@ -3,6 +3,15 @@ var assets = {
 	sounds: [
 
 	],
+	monsters: {
+		x	  	 : 0,
+		y	  	 : 0,
+		width	 : 48,
+		height	 : 50,
+		name  	 : 'monsters',
+		image 	 : {},
+		htmlImage: {}
+	},
 	// will be used as gameboard background untill we have levels mode
 	background: {
 		x	  	 : 0,

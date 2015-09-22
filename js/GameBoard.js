@@ -13,6 +13,7 @@ GameBoard = function() {
 		// we init the player
 		this.player = new Player();
 		this.player.init(owner);
+		// we init the monster factory
 		// we add the container to the stage
 		owner.addChild(this.container);
 		this.container.on("click", this.startGame, this);
@@ -22,10 +23,12 @@ GameBoard = function() {
 			var player = this.gameBoard.player;
 			// move
 			if (2 == e.nativeEvent.button) {
+				//TODO: fire event
 				this.gameBoard.pingLocation(e);
 				player.move(e);
 	        } else if (0 == e.nativeEvent.button) {
 	        	// shoot
+				//TODO: fire event
 	            player.shoot(e, this.gameBoard.container);
 	        }
 	 	});

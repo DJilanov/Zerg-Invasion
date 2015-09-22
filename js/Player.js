@@ -59,7 +59,7 @@ var Player = function() {
         createjs.Tween.get(bullet).to({
             x: e.rawX,
             y: e.rawY
-        }, time).call(this.explode, [container, bullet], this)
+        }, time).call(this.explode, [container, bullet], this);
 	};
 	this.explode = function(container, bullet) {
 		container.removeChild(bullet);
